@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/friendsofgo/errors"
-	"github.com/volatiletech/sqlboiler/v4/importers"
+	"github.com/wyverny/sqlboiler/v4/importers"
 	"github.com/volatiletech/strmangle"
 )
 

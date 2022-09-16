@@ -10,9 +10,9 @@ import (
 	"github.com/friendsofgo/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/volatiletech/sqlboiler/v4/boilingcore"
-	"github.com/volatiletech/sqlboiler/v4/drivers"
-	"github.com/volatiletech/sqlboiler/v4/importers"
+	"github.com/wyverny/sqlboiler/v4/boilingcore"
+	"github.com/wyverny/sqlboiler/v4/drivers"
+	"github.com/wyverny/sqlboiler/v4/importers"
 )
 
 const sqlBoilerVersion = "4.13.0"
