@@ -290,7 +290,7 @@ func writeModifiers(q *Query, buf *bytes.Buffer, args *[]interface{}) {
 	}
 
 	if len(q.forlock) != 0 {
-		fmt.Fprintf(buf, " FOR %s", q.forlock)
+		fmt.Fprintf(buf, " %s", q.forlock)
 	}
 }
 
