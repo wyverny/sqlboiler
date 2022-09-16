@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/volatiletech/null/v8"
-	"github.com/volatiletech/sqlboiler/v4/drivers"
+	"github.com/wyverny/sqlboiler/v4/drivers"
 
 	"github.com/DATA-DOG/go-sqlmock"
 )
